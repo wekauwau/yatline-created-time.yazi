@@ -18,7 +18,7 @@ local function setup(_, options)
 		function Yatline.coloreds.get:created_time()
 			local h = hovered()
 			local created_time = {}
-			local time = " C: " .. os.date("%Y-%m-%d %H:%M", h.cha.created // 1) .. " "
+			local time = " C: " .. os.date("%Y-%m-%d %H:%M", h.cha.btime // 1) .. " "
 
 			table.insert(created_time, { time, config.created_time_color })
 			return created_time
