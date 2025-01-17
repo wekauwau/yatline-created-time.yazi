@@ -25,7 +25,7 @@ require("yatline-created-time"):setup()
 Then, add it in one of your sections in the yatline configuration using:
 
 ```lua
-{ type = "coloreds", custom = false, name = "created-time" }
+{ type = "coloreds", custom = false, name = "created_time" }
 ```
 
 ## Credits
